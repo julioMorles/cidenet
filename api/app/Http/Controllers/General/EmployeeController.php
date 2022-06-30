@@ -79,6 +79,7 @@ class EmployeeController extends Controller
         $empleado->area_id = $request->area_id;
         $empleado->estado = true;
         $empleado->save();
+        return  $empleado;
     }
 
     /**
@@ -89,7 +90,7 @@ class EmployeeController extends Controller
      */
     public function show($id)
     {
-        //
+        return ModelsEmployee::find($id);
     }
 
     /**

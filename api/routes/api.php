@@ -3,6 +3,7 @@
 use App\Http\Controllers\General\ContryController;
 use App\Http\Controllers\General\EmployeeController;
 use App\Http\Controllers\General\TypeidController;
+use App\Http\Controllers\General\AreaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 

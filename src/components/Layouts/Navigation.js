@@ -35,7 +35,12 @@ const Navigation = ({ user }) => {
                             <NavLink
                                 href="/dashboard"
                                 active={router.pathname === '/dashboard'}>
-                                Dashboard
+                                Empleados
+                            </NavLink>
+                            <NavLink
+                                href="/crearEmpleados"
+                                active={router.pathname === '/crearEmpleados'}>
+                                Crear empleados
                             </NavLink>
                         </div>
                     </div>
@@ -112,6 +117,11 @@ const Navigation = ({ user }) => {
                             href="/dashboard"
                             active={router.pathname === '/dashboard'}>
                             Dashboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                             href="/crearEmpleados"
+                             active={router.pathname === '/crearEmpleados'}>
+                             Crear empleados
                         </ResponsiveNavLink>
                     </div>
 
